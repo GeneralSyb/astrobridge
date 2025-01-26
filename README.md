@@ -3,6 +3,7 @@
 Basically just a barebones Raspberry Pi OS with INDI and the INDI webmanager install. Can be used as a network bridge that allows you to run heavy loads on a computer or laptop, with the raspberry pi only acting as a bridge between your equipment and the network. Should work on the Raspberry Pi 3B and newer.
 
 ## Setup
+It is recommended to use the Raspberry Pi imager because it lets you set the wifi login credentials without the need for you to manually create a wpa_supplicant file.
 Use the Raspberry Pi imager to write the [img](https://github.com/GeneralSyb/astrobridge/releases "img") file to an SD card (minimum 16gb), add a [wpa_supplicant.conf](https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/ "wpa_supplicant.conf") file, put the SD card into the pi and power on the Pi. Find the IP of the Pi through the device list of your router or use an app like PingTools. Enter the IP address of the Pi in the Ekos equipment profile.
 
 ## Building from scratch
